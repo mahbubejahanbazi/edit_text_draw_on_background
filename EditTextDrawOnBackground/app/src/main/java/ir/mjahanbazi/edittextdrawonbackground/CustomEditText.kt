@@ -20,14 +20,14 @@ open class CustomEditText : AppCompatEditText {
         private val paintOutside: Paint = object : Paint() {
             init {
                 isAntiAlias = true
-                style = Paint.Style.FILL
+                style = Style.FILL
                 color = Color.BLUE
             }
         }
         private val paintInside: Paint = object : Paint() {
             init {
                 isAntiAlias = true
-                style = Paint.Style.FILL
+                style = Style.FILL
                 color = Color.YELLOW
             }
         }
